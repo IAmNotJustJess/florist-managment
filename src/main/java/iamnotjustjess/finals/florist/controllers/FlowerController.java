@@ -1,7 +1,7 @@
-package bb.aplikacje.kwiaciarnia.controllers;
+package iamnotjustjess.finals.florist.controllers;
 
-import bb.aplikacje.kwiaciarnia.models.dtos.FlowerDto;
-import bb.aplikacje.kwiaciarnia.services.FlowerService;
+import iamnotjustjess.finals.florist.models.dtos.FlowerDto;
+import iamnotjustjess.finals.florist.services.FlowerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

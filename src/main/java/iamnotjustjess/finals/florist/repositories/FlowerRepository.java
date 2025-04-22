@@ -1,6 +1,6 @@
-package bb.aplikacje.kwiaciarnia.repositories;
+package iamnotjustjess.finals.florist.repositories;
 
-import bb.aplikacje.kwiaciarnia.models.entities.Flower;
+import iamnotjustjess.finals.florist.models.entities.Flower;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,8 @@
-package bb.aplikacje.kwiaciarnia.services;
+package iamnotjustjess.finals.florist.services;
 
-import bb.aplikacje.kwiaciarnia.models.dtos.FlowerDto;
-import bb.aplikacje.kwiaciarnia.models.entities.Flower;
-import bb.aplikacje.kwiaciarnia.repositories.FlowerRepository;
+import iamnotjustjess.finals.florist.models.dtos.FlowerDto;
+import iamnotjustjess.finals.florist.models.entities.Flower;
+import iamnotjustjess.finals.florist.repositories.FlowerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package bb.aplikacje.kwiaciarnia.models.dtos;
+package iamnotjustjess.finals.florist.models.dtos;
 
-import bb.aplikacje.kwiaciarnia.models.entities.Flower;
+import iamnotjustjess.finals.florist.models.entities.Flower;
 
 public class FlowerDto {
     private Integer id;

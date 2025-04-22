@@ -1,6 +1,6 @@
-package bb.aplikacje.kwiaciarnia.models.entities;
+package iamnotjustjess.finals.florist.models.entities;
 
-import bb.aplikacje.kwiaciarnia.models.dtos.FlowerDto;
+import iamnotjustjess.finals.florist.models.dtos.FlowerDto;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
