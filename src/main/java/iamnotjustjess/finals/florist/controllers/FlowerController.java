@@ -17,27 +17,27 @@ public class FlowerController {
         this.service = flowerService;
     }
 
-    @PostMapping("/api/save")
+    @PostMapping("/api/flower/save")
     public ResponseEntity<FlowerDto> save(@RequestBody FlowerDto flowerDto) {
         return ResponseEntity.ok(service.save(flowerDto));
     }
 
-    @GetMapping("/api/find-all")
+    @GetMapping("/api/flower/find-all")
     public ResponseEntity<List<FlowerDto>> findAll() {
         return ResponseEntity.ok(service.findAll());
     }
 
-    @GetMapping("/api/find/{id}")
+    @GetMapping("/api/flower/find/{id}")
     public ResponseEntity<FlowerDto> findById(@PathVariable Integer id) {
         return ResponseEntity.ok(service.findById(id));
     }
 
-    @PutMapping("/api/edit")
+    @PutMapping("/api/flower/edit")
     public ResponseEntity<FlowerDto> edit(@RequestBody FlowerDto flowerDto) {
         return ResponseEntity.ok(service.edit(flowerDto));
     }
 
-    @DeleteMapping("/api/delete/{id}")
+    @DeleteMapping("/api/flower/delete/{id}")
     @ResponseStatus(HttpStatus.OK)
     public void delete(@PathVariable Integer id) {
         service.delete(id);
