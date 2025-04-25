@@ -33,7 +33,7 @@ public class WorkerController {
         return ResponseEntity.ok(service.findById(id));
     }
 
-    @PutMapping("/api/worker/edit")
+    @PatchMapping("/api/worker/edit")
     public ResponseEntity<WorkerDto> edit(@RequestBody WorkerDto workerDto) {
         return ResponseEntity.ok(service.edit(workerDto));
     }

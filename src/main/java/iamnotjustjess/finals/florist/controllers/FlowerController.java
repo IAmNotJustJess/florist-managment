@@ -32,7 +32,7 @@ public class FlowerController {
         return ResponseEntity.ok(service.findById(id));
     }
 
-    @PutMapping("/api/flower/edit")
+    @PatchMapping("/api/flower/edit")
     public ResponseEntity<FlowerDto> edit(@RequestBody FlowerDto flowerDto) {
         return ResponseEntity.ok(service.edit(flowerDto));
     }
